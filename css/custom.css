@@ -1,0 +1,119 @@
+/* Navigation */
+.navbar-default {
+	margin: 0 auto 0 auto;
+	background-color: white;
+	border: 0;
+	width: 98%;
+	-webkit-box-shadow: 2px 2px 3px #6C6B73;
+	box-shadow: 2px 2px 3px #6C6B73;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #000000;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: red;
+}
+
+.navbar-default .nav {
+    padding: 15px 0;
+}
+
+.navbar-default .navbar-brand {
+    padding: 0 15px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	max-width: 100px;
+}
+
+/* Jumbotron */
+.jumbotron {
+	padding: 10px;
+	margin-left: -3px;
+	margin-right: -3px;
+	background-color: #1996A3;
+	margin-top: 70px;
+	
+}
+
+.jumbotron .col-md-6 .title {
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.jumbotron .col-md-6 .about{
+	/*font-size: 1.2em;*/
+	color: #FFFFFF;
+	font-weight: normal;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	text-align: left;
+}
+
+.row {
+	margin-bottom: 20px;
+}
+
+.img-responsive {
+	padding: 5px;
+}
+
+.col-md-6 {
+	padding: 5px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 1em;
+}
+
+.col-md-6 > h3 {
+	color: #0092B1;
+}
+
+.footer {
+	padding: 5px;
+	padding-top: -4px;
+	background-color: #5F5E50;
+	text-align: center;
+	margin: -3px;
+	color: #FFFFFF;
+}
+
+
+
+#logo {
+
+}
+#logo img{
+	width: 300px;
+}
+
+
+@media only screen and (min-width: 760px) {
+	
+	body {
+	background-color: #5F5E50;
+	margin: 0px;
+	padding: 0px;
+	}
+	.container1 {
+	margin: 0 auto 0 auto;
+	padding: 3px;
+	background-color: #FFFFFF;
+	width: 98%;
+	}
+	
+	#logo img{
+	width: 200px;
+	margin-top: 19px;
+}
+.row {
+	
+	width: 100%;
+}
+}
+
+@media only screen and (min-width: 980px) {
+  #logo img{
+	width: 300px;
+}
+}
