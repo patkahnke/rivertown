@@ -1,0 +1,26 @@
+{
+  "name": "rivertown",
+  "version": "1.0.0",
+  "description": "development site for rivertown communications",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patkahnke/rivertown.git"
+  },
+  "author": "Pat Kahnke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patkahnke/rivertown/issues"
+  },
+  "homepage": "https://github.com/patkahnke/rivertown#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.0",
+    "jquery": "^3.1.1"
+  }
+}
