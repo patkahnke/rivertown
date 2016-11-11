@@ -1,3 +1,15 @@
+/* Fonts */
+@font-face {
+	font-family: 'Articulate';
+	src: local('Articulate Regular'), local('Articulate'), url('fonts/ARN_____.TTF') format('truetype');
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: local('Open Sans Regular'), local('Open Sans'), url('fonts/OpenSans-Regular.ttf') format('truetype');
+  src: local('Open Sans Bold'), url('fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
 /* Navigation */
 .navbar-default {
 	margin: 0 auto 0 auto;
@@ -14,7 +26,7 @@
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-	color: red;
+	color: #FF4000;
 }
 
 .navbar-default .nav {
@@ -28,31 +40,36 @@
 	max-width: 100px;
 }
 
+.nav-link {
+  font-family: "Open Sans";
+  font-size: 1.1em;
+  color: #4B4A3F;
+  font-weight: bold;
+}
+
+/* Centered Images and Text */
+.center-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* Jumbotron */
 .jumbotron {
-	padding: 10px;
+  padding: 70px, 10px, 10px, 10px;
 	margin-left: -3px;
 	margin-right: -3px;
 	background-color: #1996A3;
-	margin-top: 70px;
-	
+  margin-top: 87px;
 }
 
-.jumbotron .col-md-6 .title {
-	color: #FFFFFF;
-	text-align: center;
-}
-
-.jumbotron .col-md-6 .about{
-	/*font-size: 1.2em;*/
+.jumbotron .about{
+	font-size: 1.2em;
 	color: #FFFFFF;
 	font-weight: normal;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	text-align: left;
-}
-
-.row {
-	margin-bottom: 20px;
 }
 
 .img-responsive {
@@ -78,8 +95,6 @@
 	color: #FFFFFF;
 }
 
-
-
 #logo {
 
 }
@@ -89,7 +104,7 @@
 
 
 @media only screen and (min-width: 760px) {
-	
+
 	body {
 	background-color: #5F5E50;
 	margin: 0px;
@@ -101,13 +116,13 @@
 	background-color: #FFFFFF;
 	width: 98%;
 	}
-	
+
 	#logo img{
 	width: 200px;
 	margin-top: 19px;
 }
 .row {
-	
+
 	width: 100%;
 }
 }
