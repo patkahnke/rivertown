@@ -27,7 +27,7 @@ p {
 	margin: 0 auto 0 auto;
 	background-color: white;
 	border: 0;
-	width: 98%;
+	width: 100%;
 	-webkit-box-shadow: 2px 2px 3px #6C6B73;
 	box-shadow: 2px 2px 3px #6C6B73;
 }
@@ -46,7 +46,7 @@ p {
 }
 
 .navbar-default .navbar-brand {
-  padding: 0 15px;
+  padding: 0px 15px;
 	margin-top: 5px;
 	margin-bottom: 5px;
 	max-width: 100px;
@@ -65,6 +65,7 @@ p {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  padding-top: 15px
 }
 
 /* Jumbotron */
@@ -73,7 +74,7 @@ p {
 	margin-left: -3px;
 	margin-right: -3px;
 	background-color: #1996A3;
-  margin-top: 87px;
+  margin-top: 70px;
 }
 
 .jumbotron .about{
@@ -84,12 +85,18 @@ p {
 	text-align: left;
 }
 
-.img-responsive {
+/*.img-responsive {
 	padding: 5px;
-}
+}*/
 
 .content-section {
   padding-bottom: 30px;
+}
+
+.col-sm-6 {
+	padding: 20px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 1em;
 }
 
 .col-md-6 {
@@ -111,9 +118,6 @@ p {
 	color: #FFFFFF;
 }
 
-#logo {
-
-}
 #logo img{
 	width: 300px;
 }
@@ -122,29 +126,32 @@ p {
 @media only screen and (min-width: 760px) {
 
 	body {
-	background-color: #5F5E50;
-	margin: 0px;
-	padding: 0px;
+  	background-color: #5F5E50;
+  	margin: 0px;
+  	padding: 0px;
 	}
+
 	.container1 {
-	margin: 0 auto 0 auto;
-	padding: 3px;
-	background-color: #FFFFFF;
-	width: 98%;
+  	margin: 0 auto 0 auto;
+  	padding: 3px;
+  	background-color: #FFFFFF;
+  	width: 98%;
 	}
 
 	#logo img{
-	width: 200px;
-	margin-top: 19px;
-}
-.row {
+	  width: 200px;
+	  margin-top: 19px;
+  }
 
-	width: 100%;
-}
+  .row {
+	  width: 100%;
+  }
+
+
 }
 
 @media only screen and (min-width: 980px) {
   #logo img{
-	width: 300px;
-}
+	  width: 300px;
+  }
 }
